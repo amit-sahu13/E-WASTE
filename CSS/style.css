@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    height: 68px;
+    background: #EDF6F9;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.main-nav ul li {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200px;
+    cursor: pointer;
+}
+
+.logo,
+.main-nav,
+.user-account {
+    margin-top: 25px;
+}
+
+.tagline {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.image-tagline img {
+    width: 760px;
+    height: 639px;
+    float: left;
+}
+
+.tags {
+    background: #0F4C5C;
+    width: 760px;
+    float: right;
+    height: 639px;
+}
+
+.line {
+    color: #FFFFFF;
+    font-size: 53px;
+    position: absolute;
+    margin-top: 250px;
+    width: 520px;
+    margin-left: 70px;
+}
+
+.about-text-heading {
+    height: 68px;
+    background: #D9D9D9;
+}
+
+.about-text-heading p {
+    color: #0F4C5C;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 24px;
+}
+.container-details-part1{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 70px;
+}
+.container-details-part1 p{
+    width: 590px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 25px;
+    color: #2F3E46;
+    margin-top: 50px;
+    line-height: 35px;
+}
+.image-about-part-1 img{
+    width: 482px;
+    height: 293px;
+}
+.image-about-part-2 img{
+    width: 359px;
+    height: 359px;
+}
+.container-details-part2{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 70px;
+}
+.container-details-part2 p{
+    width: 590px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 25px;
+    color: #2F3E46;
+    margin-top: 50px;
+    line-height: 35px;
+}
+.container-details-part2-para h3{
+    font-size: 25px;
+    color: #0F4C5C;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 3px;
+}
+.container-details-part2-para{
+    margin-top: 30px;
+}
+.effect-text-heading {
+    height: 68px;
+    background: #D9D9D9;
+}
+.effect-text-heading p {
+    color: #0F4C5C;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 24px;
+}
