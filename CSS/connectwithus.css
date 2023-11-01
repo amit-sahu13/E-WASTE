@@ -1,0 +1,38 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+form {
+ width: 300px;
+ margin: 0 auto;
+}
+
+form input, form textarea {
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ box-sizing: border-box;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.btn-submit:hover {
+    opacity: 0.8;
+    background-color: red;
+   }
+   
+
+
+.btn-submit {
+font-family: 'Montserrat', sans-serif; 
+font-weight: bold; 
+background-color: rgb(255, 168, 6);
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100;
+}
