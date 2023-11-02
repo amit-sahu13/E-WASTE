@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -17,17 +18,18 @@
 
 .tags {
     background: #0F4C5C;
-    width: 760px;
+    width: 1000px;
     float: right;
     height: 639px;
 }
 
 .line {
     color: #FFFFFF;
-    font-size: 53px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 47px;
     position: absolute;
     margin-top: 250px;
-    width: 520px;
+    width: 638px;
     margin-left: 70px;
 }
 
