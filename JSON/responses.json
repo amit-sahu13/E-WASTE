@@ -1,0 +1,52 @@
+{
+  "rules": [
+    {
+      "input": "hello",
+      "output": "Hello! How can I assist you with e-waste disposal?"
+    },
+    {
+      "input": "what is e-waste",
+      "output": "Electronic waste, or e-waste, refers to discarded electronic devices. Proper disposal is essential for the environment."
+    },
+    {
+      "input": "collection center",
+      "output": "You can find e-waste collection centers by visiting our website and using the locator tool."
+    },
+    {
+      "input": "recycling program",
+      "output": "Our recycling program allows you to earn credits by disposing of e-waste responsibly. These credits can be used for discounts or rewards."
+    },
+    {
+      "input": "earn credits",
+      "output": "You can earn credits by participating in our recycling program. The amount of credits you earn depends on the type and quantity of e-waste you recycle."
+    },
+    {
+      "input": "what are the benefits of recycling e-waste",
+      "output": "Recycling e-waste helps conserve natural resources, prevents environmental pollution, and reduces the need for mining and manufacturing of new materials."
+    },
+    {
+      "input": "where can I drop off my old laptop",
+      "output": "You can drop off your old laptop at any of our designated e-waste collection centers. Visit our website to find the nearest one to you."
+    },
+    {
+      "input": "can I recycle my old TV",
+      "output": "Yes, you can recycle your old TV. We accept a wide range of electronic devices for recycling, including televisions."
+    },
+    {
+      "input": "what happens to the recycled e-waste",
+      "output": "Recycled e-waste is processed to recover valuable materials like metals and plastics, which are then used to manufacture new products. This reduces the need for extracting and refining raw materials."
+    },
+    {
+      "input": "how do I know if a device is e-waste",
+      "output": "Any electronic device that you no longer use or that is no longer functional can be considered e-waste. This includes old phones, laptops, TVs, and other electronic gadgets."
+    },
+    {
+      "input": "what should I do if I can't find a collection center near me",
+      "output": "If you're unable to find a collection center near you, please contact our support team. They will assist you in finding a suitable solution for e-waste disposal."
+    },
+    {
+      "input": "thanks",
+      "output": "You're welcome! If you have more questions, feel free to ask."
+    }
+  ]
+}
