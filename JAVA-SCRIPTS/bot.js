@@ -1,5 +1,6 @@
 let responses;
 
+
 // Load responses from JSON file
 fetch("JSON/responses.json")
   .then((response) => response.json())

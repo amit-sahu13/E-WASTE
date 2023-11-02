@@ -4,17 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Waste Chatbot</title>
+    <title>E-Waste | CHATBOT</title>
     <link rel="stylesheet" href="CSS/bot.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/footer.css">
     <script src="JAVA-SCRIPTS/bot.js"></script>
 </head>
 
 <body>
-    <div class="chat-container">
-        <div class="chat-box" id="chat-box"></div>
-        <input type="text" id="user-input" class="user-input" placeholder="Type your message...">
-        <button onclick="sendMessage()" class="send-button">Send</button>
-    </div>
+    <header class="head">
+        <div class="navbar">
+            <div class="logo">E-WASTE</div>
+            <div class="main-nav">
+                <ul>
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href=""><li>LOCATE</li></a>
+                    <a href="credit.html"><li style="color: #1B6B95;;">CREDIT</li></a>
+                    <a href="about.html"><li>ABOUT</li></a>
+                    <a href="bot.html"><li>BOT</li></a>
+                </ul>
+            </div>
+            <div class="user-account">
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="chat-container">
+            <div class="chat-box" id="chat-box"></div>
+            <input type="text" id="user-input" class="user-input" placeholder="Type your message...">
+            <button onclick="sendMessage()" class="send-button">Send</button>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="connect">
+                <p>CONNECT WITH US!</p>
+            </div>
+            <div class="social-links">
+                <a target="_blank" href="https://instagram.com/amit_sahu_13?igshid=OGQ5ZDc2ODk2ZA=="><i
+                        class="fa-brands fa-instagram"></i> Instagram</a>
+                <a target="_blank" href="https://www.linkedin.com/in/amit-sahu-08ab62220/"><i
+                        class="fa-brands fa-linkedin"></i> Linkedin</a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=DpEiNciVLwM"><i
+                        class="fa-brands fa-youtube"></i> Youtube</a>
+            </div>
+            <div class="copyright">
+                <p>COPYRIGHT &copy; BYTECLEAN | 2023 - MEDICAPS UNIVERSITY</p>
+            </div>
+        </div>
+    </footer>
+    <script src="JAVA-SCRIPTS/bot-enter-send.js"></script>
 </body>
 
 </html>
