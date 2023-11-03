@@ -1,0 +1,18 @@
+.form-container{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    position: fixed;
+    top: 125px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 371px;
+    z-index: 4;
+}
+header, footer, main{
+    filter: blur(8px);
+    overflow: hidden;
+}
