@@ -51,4 +51,6 @@
 .user-account{
     font-size: 20px;
     cursor: pointer;
+}.user-account a{
+    color: #2F3E46;
 }
