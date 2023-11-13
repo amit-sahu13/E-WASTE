@@ -100,7 +100,6 @@
     display: flex;
     gap: 65px;
     justify-content: center;
-    margin-bottom: 50px;
 }
 
 .map-image img {
@@ -139,6 +138,7 @@
     font-weight: 700;
     color: #2F3E46;
     text-align: center;
+    padding-top: 50px;
 }
 
 .team {
@@ -231,20 +231,16 @@
     margin-bottom: 80px;
 }
 
-.connect{
+.connects{
     display: flex;
     justify-content: center;
     gap: 250px;
     margin-bottom: 50px;
 }
-.connect img{
+.connects img{
     height: 530px;
     width: 500px;
 }
 .container2{
     margin-top: 30px;
-}
-footer{
-    height: 390px;
-    background: #0F4C5C;
 }
