@@ -1,0 +1,88 @@
+body {
+    font-family: 'Montserrat', sans-serif; 
+    text-align: center;
+    background-color: #f7f7f7;
+  }
+  
+  .h {
+    font-family: 'Montserrat', sans-serif; 
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+    color: orange;
+    font-weight: bolder;
+    
+  }
+  .form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-toggle button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 2px;
+    background-color: olivedrab;
+    color: #fff;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .form-toggle button.active {
+    background-color: #042141;
+  }
+  
+  .form-section {
+    display: none;
+  }
+  .form-section.show {
+    display: block;
+  }
+  
+  .form-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(255, 168, 6);
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+    background-color: rgb(235, 84, 84);
+  }
+  
