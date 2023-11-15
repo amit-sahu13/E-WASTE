@@ -21,8 +21,9 @@ const auth = getAuth();
 
 signUp.addEventListener('click', (e) => {
 
-  var email = document.getElementById('email').value;
-  var password = document.getElementById('password').value;
+  var email = document.getElementById('signup_email').value;
+  var password = document.getElementById('signup_password').value;
+  var username = document.getElementById('username').value;
 
   createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
@@ -33,6 +34,8 @@ signUp.addEventListener('click', (e) => {
         email: email
       })
       alert('Account registered successfuly');
+      
+   
       // ...
     })
     .catch((error) => {
