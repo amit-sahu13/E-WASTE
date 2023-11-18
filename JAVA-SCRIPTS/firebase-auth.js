@@ -80,9 +80,10 @@ signUp.addEventListener('click', (e) => {
 
 const user = auth.currentUser;
 onAuthStateChanged(auth, (user) => {
-  if (user) {
+  if (user!==null) {
     // User is signed in, see docs for a list of available properties
     // https://firebase.google.com/docs/reference/js/auth.user
+    // window.location.href='index.html';
     const uid = user.uid;
     // ...
   } else {

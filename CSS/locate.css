@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    margin-left: -19px;
+    gap: 50px;
+}
+.locate-main{
+    margin-top: 50px;
+}
+.search-box{
+    justify-content: center;
+    display: flex;
+    gap: 7px;
+}
+.search-box input{
+    width: 280px;
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 6px;
+}
+.search-image img{
+    height: 30px;
+    width: 30px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.card-1{
+    margin: 20px 0px 20px 0px;
+    background: pink;
+    padding: 50px;
+    border-radius: 7px;
+    width: 650px;
+}
+.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.company{
+    font-size: 30px;
+}
+.add{
+    margin: 10px 0px 3px 0px;
+    font-size: 25px;
+}
+.city{
+    font-size: 25px;
+    font-weight: 400;
+}
+.state{
+    font-size: 25px;
+}
+.card-1 .direction button{
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.card-1 .direction button:hover{
+    background-color: aquamarine;
+}
+.card-1 .direction{
+    text-align: center;
+    margin-top: 20px;
+}
+

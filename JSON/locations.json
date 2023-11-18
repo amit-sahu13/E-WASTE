@@ -1,0 +1,34 @@
+[
+    {
+        "id" : 1,
+        "company" : "Moonstar Enterprises",
+        "address" : "Sector B, Sanwer Road Industrial Road Area",
+        "city" : "Indore",
+        "state" : "Madhya Pradesh - 452015" ,
+        "link" : "https://maps.app.goo.gl/N2mgG6JgAk82sZhCA"
+    },
+    {
+        "id" : 2,
+        "company" : "Advanced E-Waste Recycler",
+        "address" : "MG ROad Near Kothari Market Square",
+        "city" : "Indore",
+        "state" : "Madhya Pradesh - 452007",
+        "link" : "https://maps.app.goo.gl/HFZTAYw1R3y6VxZJA"
+    },
+    {
+        "id" : 3,
+        "company" : "Unique Eco Recycle",
+        "address" : "RD Udyog Nagar, Nemawar Rd, Palda Area",
+        "city" : "Indore",
+        "state" : "Madhya Pradesh - 452020",
+        "link" : "https://maps.app.goo.gl/89cUz5YK34a91nqL7"
+    },
+    {
+        "id" : 4,
+        "company" : "E-Waste Samadhan",
+        "address" : "Plot No. 15, IT Park, Dhar Road",
+        "city" : "Pune",
+        "state" : "Madhya Pradesh - 452001" ,
+        "link" : "https://maps.app.goo.gl/78XQRJLSzqCHjWWX7"
+    }
+]
