@@ -1,0 +1,163 @@
+body {
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #0a0000;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+    
+}
+h4 {
+    color: #faf7f7;
+    margin-bottom: 25px;
+   
+    font-family: 'Montserrat', sans-serif; 
+    
+}
+#myDiv {
+    width: 700px;
+    height: 800px;
+    background-color: rgba(145, 155, 135, 0.365);
+    margin: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 0px;
+}
+.text {
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #faf7f7;
+    background-color: #154c79;
+    border: 0px transparent;
+    border-radius: 0rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin: 60px ;
+    border: 2px solid #000; 
+    font-family: Arial, sans-serif;
+    background-color: #154c79;
+}
+
+label {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(237, 159, 33);
+    color: #fff;
+    size: 16px;
+    width: 150px;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif; 
+    margin: 10px auto;
+    justify-content: center;
+}
+
+#confirmation {
+    display: none;
+    
+    justify-content: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#confirm-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px auto;
+}
+
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: 'Montserrat', sans-serif; 
+  border-radius: 4px;
+  width: 400px;
+  border: 0px;
+  height: 300px;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: rgb(235, 238, 241);
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #534f4f transparent;
+  top: 2px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #140404;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: rgb(161, 164, 168);
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
