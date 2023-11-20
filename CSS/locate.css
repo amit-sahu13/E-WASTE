@@ -7,12 +7,10 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-.navbar{
-    margin-left: -19px;
-    gap: 50px;
-}
+
 .locate-main{
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .search-box{
     justify-content: center;
@@ -22,9 +20,11 @@ body{
 .search-box input{
     width: 280px;
     padding: 10px;
-    border: 3px solid;
+    border: 2px solid;
     border-radius: 6px;
+    font-size: 15px;
 }
+
 .search-image img{
     height: 30px;
     width: 30px;
@@ -33,7 +33,7 @@ body{
 }
 .card-1{
     margin: 20px 0px 20px 0px;
-    background: pink;
+    background: #e4e4e4;
     padding: 50px;
     border-radius: 7px;
     width: 650px;
