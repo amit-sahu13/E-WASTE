@@ -1,99 +1,141 @@
-body {
-    font-family: 'Montserrat', sans-serif; 
-    line-height: 1.6;
-    margin: 0;
-    padding: 20px;
-    background-color: #f4f4f4;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+} */
+
+.first-para-div {
+  background: #D9D9D9;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-left: 26px;
+  margin-top: 20px;
+  width: 1470px;
+}
+
+.first-para-div p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
 }
 
 h2 {
-    color: #0a0000;
-    margin-bottom: 50px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif; 
-    
+  color: #0a0000;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: x-large;
+  margin: 20px 0px -40px 60px;
 }
+
 h4 {
-    color: #faf7f7;
-    margin-bottom: 25px;
-   
-    font-family: 'Montserrat', sans-serif; 
-    
+  color: #ffffff;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', sans-serif;
+
 }
+.text p{
+  font-family: 'Montserrat', sans-serif;
+}
+
 #myDiv {
-    width: 700px;
-    height: 800px;
-    background-color: rgba(145, 155, 135, 0.365);
-    margin: 10px;
-    padding: 10px;
-    margin: 10px auto;
-    border: 0px;
+  width: 700px;
+  height: 700px;
+  background-color: rgba(145, 155, 135, 0.365);
+  margin: 10px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 0px;
+  margin-bottom: 50px;
 }
+
 .text {
-    margin-bottom: 15px;
-    padding: 10px;
-    color: #faf7f7;
-    background-color: #154c79;
-    border: 0px transparent;
-    border-radius: 0rem;
+  margin-bottom: 15px;
+  padding: 10px;
+  color: #faf7f7;
+  background-color: #0F4C5C;
+  border: 0px transparent;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    margin: 60px ;
-    border: 2px solid #000; 
-    font-family: Arial, sans-serif;
-    background-color: #154c79;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin: 60px;
+  border: 2px solid #000;
+  font-family: Arial, sans-serif;
+  background-color: #0F4C5C;
 }
 
 label {
-    color: #333;
-    margin-bottom: 5px;
+  color: #333;
+  margin-bottom: 5px;
 }
 
 input {
-    padding: 10px;
-    margin-bottom: 20px;
-    font-size: 16px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
 
 button {
-    padding: 10px 20px;
-    background-color: rgb(237, 159, 33);
-    color: #fff;
-    size: 16px;
-    width: 150px;
-    border-radius: 6px;
-    font-family: 'Montserrat', sans-serif; 
-    margin: 10px auto;
-    justify-content: center;
+  padding: 10px 20px;
+  background-color: rgb(237, 159, 33);
+  color: #fff;
+  size: 16px;
+  width: 150px;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px auto;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+button :hover{
+  background-color: red;
 }
 
 #confirmation {
-    display: none;
-    
-    justify-content: center;
-    padding: 20px;
-    background-color: #f1f1f1;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    font-family: Arial, sans-serif;
+  margin-top: -50px;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: 600;
 }
 
 #confirm-button {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 16px;
-    margin: 10px auto;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px auto;
+}
+#confirmation button{
+  font-family: 'Montserrat', sans-serif;
+}
+#confirmation button:hover{
+  background-color: rgb(195, 105, 105);
 }
 
-/*the container must be positioned relative:*/
+
 .custom-select {
   position: relative;
-  font-family: 'Montserrat', sans-serif; 
+  font-family: 'Montserrat', sans-serif;
   border-radius: 4px;
   width: 400px;
   border: 0px;
@@ -101,33 +143,40 @@ button {
 }
 
 .custom-select select {
-  display: none; /*hide original SELECT element:*/
+  display: none;
+}
+
+select{
+  position: absolute;
 }
 
 .select-selected {
   background-color: rgb(235, 238, 241);
+  width: 300px;
+  border-radius: 30px;
+  margin: 25px 0px 0px 114px;
 }
 
-/*style the arrow inside the select element:*/
+
 .select-selected:after {
   position: absolute;
   content: "";
-  top: 14px;
-  right: 10px;
+  top: 42px;
+  right: 103px;
   width: 0;
   height: 0;
   border: 6px solid transparent;
-  border-color: #fff transparent transparent transparent;
+  border-color: #534f4f transparent transparent transparent;
 }
 
-/*point the arrow upwards when the select box is open (active):*/
+
 .select-selected.select-arrow-active:after {
   border-color: transparent transparent #534f4f transparent;
-  top: 2px;
+  top: 35px;  
 }
 
-/*style the items (options), including the selected item:*/
-.select-items div,.select-selected {
+.select-items div,
+.select-selected {
   color: #140404;
   padding: 8px 16px;
   border: 1px solid transparent;
@@ -136,28 +185,28 @@ button {
   user-select: none;
 }
 
-/*style items (options):*/
 .select-items {
-  position: absolute;
-  background-color: rgb(161, 164, 168);
-  top: 100%;
+  background-color: #f4f4f4;
   left: 0;
   right: 0;
   z-index: 99;
+  width: 290px;
+  margin: 7px 0px 0px 118px;
 }
 
-/*hide the items when the select box is closed:*/
+
 .select-hide {
   display: none;
 }
 
-.select-items div:hover, .same-as-selected {
+.select-items div:hover,
+.same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }

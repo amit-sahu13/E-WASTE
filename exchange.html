@@ -1,53 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Device Exchange</title>
+    <title>E-Waste | Device Exchange</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="CSS/exchange.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
+    <header class="head">
+        <div class="navbar">
+            <div class="logo">E-WASTE</div>
+            <div class="main-nav">
+                <ul>
+                    <a href="index.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="locate.html">
+                        <li>LOCATE</li>
+                    </a>
+                    <a href="credit.html">
+                        <li style="color: #1B6B95;">CREDIT</li>
+                    </a>
+                    <a href="about.html">
+                        <li>ABOUT</li>
+                    </a>
+                    <a href="bot.html">
+                        <li>BOT</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="user-account">
+                <a href="index-login.html"><i class="fa-solid fa-user"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="first-para-div">
+        <p>EXCHANGE OLD DEVICE</p>
+    </div>
+
     <div id="myDiv">
         <h2>Select Your Device</h2>
-    <form action="">
-        <div class="text">
-            
-            <h4>Which Device do you have?</h4>
-           <p>Device will be picked only if brand & model checked at doorstep matches the one selected here.</p>
-        </div>
-         
-        <!-- Additional form fields here -->
-       
-        
-       </form>
-    <form id="device-form">
-        
-        <div class="custom-select" style="width:500px;">
-            <select>
-              <option value="0">Select Devices:</option>
-              <option value="1">Mobile</option>
-              <option value="2">Laptop</option>
-              <option value="3">Refrigerator</option>
-              <option value="4">LED Display</option>
-              <option value="5">Toaster</option>
-              <option value="6">Vaccum Cleaner</option>
-              <option value="7">Network Equipments</option>
-              <option value="8">Remotes</option>
-              <option value="9">Water Filters</option>
-              <option value="10">Water Heaters</option>
-              <option value="11">Fans</option>
-              
-            </select>
-          </div>
+        <form action="">
+            <div class="text">
+                <h4>Which Device do you have?</h4>
+                <p>Device will be picked only if brand & model checked at doorstep matches the one selected here.</p>
+            </div>
 
-       
-    </form>
-    <button type="submit">Confirm</button>
-    <div id="confirmation">
-        <p>Connect with our technical agent to confirm exchange!</p>
-        <button id="confirm-button">Confirm</button>
+
+
+        </form>
+        <form id="device-form">
+
+            <div class="custom-select" style="width:500px;">
+                <select>
+                    <option value="0">Select Devices</option>
+                    <option value="1">Mobile</option>
+                    <option value="2">Laptop</option>
+                    <option value="3">Refrigerator</option>
+                    <option value="4">LED Display</option>
+                    <option value="5">Others</option>
+                    <!-- 
+                    <option value="6">Vaccum Cleaner</option>
+                    <option value="7">Network Equipments</option>
+                    <option value="8">Remotes</option>
+                    <option value="9">Water Filters</option>
+                    <option value="10">Water Heaters</option>
+                    <option value="11">Fans</option> -->
+
+                </select>
+            </div>
+
+
+        </form>
+
+        <div id="confirmation">
+            <p>Connect with our technical agent to confirm exchange!</p>
+            <button type="submit">Confirm</button>
+        </div>
+
+        <script src="JAVA-SCRIPTS/exchange.js"></script>
+
     </div>
-    <script src="JAVA-SCRIPTS/exchange.js"></script>
-</div>
+    <footer>
+        <div class="footer">
+            <div class="connect">
+                <p>CONNECT WITH US!</p>
+            </div>
+            <div class="social-links">
+                <a target="_blank" href="https://instagram.com/amit_sahu_13?igshid=OGQ5ZDc2ODk2ZA=="><i
+                        class="fa-brands fa-instagram"></i> Instagram</a>
+                <a target="_blank" href="https://www.linkedin.com/in/amit-sahu-08ab62220/"><i
+                        class="fa-brands fa-linkedin"></i> Linkedin</a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=DpEiNciVLwM"><i
+                        class="fa-brands fa-youtube"></i> Youtube</a>
+            </div>
+            <div class="copyright">
+                <p>COPYRIGHT &copy; BYTECLEAN | 2023 - MEDICAPS UNIVERSITY</p>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
