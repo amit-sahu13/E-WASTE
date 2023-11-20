@@ -20,8 +20,8 @@
                 <ul>
                     <a href="index.html"><li>HOME</li></a>
                     <a href="locate.html"><li>LOCATE</li></a>
-                    <a href="credit.html"><li style="color: #1B6B95;;">CREDIT</li></a>
-                    <a href="about.html"><li>ABOUT</li></a>
+                    <a href="credit.php"><li style="color: #1B6B95;;">CREDIT</li></a>
+                    <a href="about.php"><li>ABOUT</li></a>
                     <a href="bot.html"><li>BOT</li></a>
                 </ul>
             </div>
@@ -67,14 +67,19 @@
                 <p>Want to <span>Dispose</span> Off your e-Waste <span>Today</span></p>
             </div>
             <div class="form">
-                <form>
+                <?php
+
+                include 'database/credit_email.php';
+
+                ?>
+                <form action="credit.php" method="post">
                     <div class="label-email"><label for="email">We saved a spot for your e-mail</label></div>
                 <div class="whole-email">
                     <div>
                         <input type="email" name="email" id="email" placeholder="Email Address">
                     </div>   
                     <div>
-                        <input type="submit" class="submit-btn-email-credit" name="credit-email-btn"></input>
+                        <input type="submit" class="submit-btn-email-credit" name="submit" onclick="emails()">
                     </div>
                 </div>
                 </form>
@@ -101,6 +106,7 @@
             </div>
         </div>
     </footer>
+    <script src="JAVA-SCRIPTS/alert.js"></script>
 </body>
 
 </html>

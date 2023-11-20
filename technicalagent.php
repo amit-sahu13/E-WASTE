@@ -22,10 +22,10 @@
                     <a href="locate.html">
                         <li>LOCATE</li>
                     </a>
-                    <a href="credit.html">
+                    <a href="credit.php">
                         <li style="color: #1B6B95;">CREDIT</li>
                     </a>
-                    <a href="about.html">
+                    <a href="about.php">
                         <li>ABOUT</li>
                     </a>
                     <a href="bot.html">
@@ -45,27 +45,32 @@
     <h2 class="center-text">Connect with our Technical Agent</h2>
 
     <div class="forms">
-        <form action="">
-            <label for="fname">Name</label><br>
-            <input type="text" id="fname" name="fname" placeholder="Enter your Name">
+        <?php
+
+        include 'database/technical_agent.php';
+
+        ?>
+        <form action="technicalagent.php" method="post">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your Name">
             <br><br>
     
             <label for="email">Email</label><br>
             <input type="text" id="email" name="email" placeholder="Enter your Email">
             <br><br>
     
-            <label for="mnumber">Mobile Number</label><br>
-            <input type="text" id="mnumber" name="mnumber" placeholder="Enter your Mobile Number">
+            <label for="contact">Mobile Number</label><br>
+            <input type="number" id="contact" name="contact" placeholder="Enter your Mobile Number">
             <br><br>
     
-            <label for="fname">Address</label><br>
+            <label for="address">Address</label><br>
             <input type="text" id="address" name="address" placeholder="Enter your Address">
             <br><br>
     
-            <label for="modal">Model Number</label><br>
-            <input type="text" id="model" name="meodel" placeholder="Enter your Device Model Number">
+            <label for="model">Model Number</label><br>
+            <input type="text" id="model" name="model" placeholder="Enter your Device Model Number">
             <br><br>
-            <input class="btn-submit" type="submit" value="Confirm">
+            <input class="btn-submit" name="submit" type="submit" value="Confirm" onclick="technical()">
         </form>
     </div>
 
@@ -87,6 +92,7 @@
             </div>
         </div>
     </footer>
+    <script src="JAVA-SCRIPTS/alert.js"></script>
 </body>
 
 </html>

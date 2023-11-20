@@ -24,10 +24,10 @@
                     <a href="locate.html">
                         <li>LOCATE</li>
                     </a>
-                    <a href="credit.html">
+                    <a href="credit.php">
                         <li>CREDIT</li>
                     </a>
-                    <a href="about.html">
+                    <a href="about.php">
                         <li style="color: #1B6B95;">ABOUT</li>
                     </a>
                     <a href="bot.html">
@@ -132,28 +132,34 @@
             </div>
         </div>
 
+        <?php
+
+            include 'database/about_connect.php';
+
+        ?>
+
         <div class="connects">
             <img src="IMAGES/connect.png" alt="Error">
             <div class="container2">
                 <h2 class="center-text">Connect With Us</h2>
-                <form action="">
-                 <label for="fname">Name</label><br>
-                 <input type="text" id="fname" name="fname" placeholder="Enter your Name">
-                 <br>
-                 <label for="email">Email</label><br>
-                 <input type="text" id="email" name="email" placeholder="Enter your Email">
-                 <br>
-                 <label for="mnumber">Mobile Number</label><br>
-                 <input type="text" id="mnumber" name="mnumber" placeholder="Enter your Mobile Number">
-                 <br>
-                 
-                 <label for="message">Message</label><br>
-                 <input type="message" id="message" name="message" placeholder="Enter your Address">
-                 <br><br>
-                 <input class="btn-submit" type="submit" value="Submit">
+                <form action="about.php" method="post">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your Name">
+                    <br>
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email" placeholder="Enter your Email">
+                    <br>
+                    <label for="contact">Mobile Number</label><br>
+                    <input type="number" id="contact" name="contact" placeholder="Enter your Mobile Number">
+                    <br>
+
+                    <label for="message">Message</label><br>
+                    <input type="text" id="message" name="message" placeholder="Enter your Address">
+                    <br><br>
+                    <input class="btn-submit" name="submit" type="submit" value="Submit" onclick="connects()">
                 </form>
             </div>
-            
+
         </div>
     </main>
 
@@ -163,18 +169,16 @@
                 <p>CONNECT WITH US!</p>
             </div>
             <div class="social-links">
-                <a target="_blank" href="https://instagram.com/amit_sahu_13?igshid=OGQ5ZDc2ODk2ZA=="><i
-                        class="fa-brands fa-instagram"></i> Instagram</a>
-                <a target="_blank" href="https://www.linkedin.com/in/amit-sahu-08ab62220/"><i
-                        class="fa-brands fa-linkedin"></i> Linkedin</a>
-                <a target="_blank" href="https://www.youtube.com/watch?v=DpEiNciVLwM"><i
-                        class="fa-brands fa-youtube"></i> Youtube</a>
+                <a target="_blank" href="https://instagram.com/amit_sahu_13?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i> Instagram</a>
+                <a target="_blank" href="https://www.linkedin.com/in/amit-sahu-08ab62220/"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=DpEiNciVLwM"><i class="fa-brands fa-youtube"></i> Youtube</a>
             </div>
             <div class="copyright">
                 <p>COPYRIGHT &copy; BYTECLEAN | 2023 - MEDICAPS UNIVERSITY</p>
             </div>
         </div>
     </footer>
+    <script src="JAVA-SCRIPTS/alert.js"></script>
 </body>
 
 </html>
