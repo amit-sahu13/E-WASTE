@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/estimated.css">
+
 </head>
 
 <body>
@@ -59,9 +61,9 @@
         <form id="device-form">
 
             <div class="custom-select" style="width:500px;">
-                <select>
+                <select id="my-select">
                     <option value="0">Select Devices</option>
-                    <option value="1">Mobile</option>
+                    <option value="1" onclick="mobile()">Mobile</option>
                     <option value="2">Laptop</option>
                     <option value="3">Refrigerator</option>
                     <option value="4">LED Display</option>
@@ -76,18 +78,17 @@
 
                 </select>
             </div>
-
-
         </form>
 
         <div id="confirmation">
             <p>Connect with our technical agent to confirm exchange!</p>
-            <button type="submit">Confirm</button>
+            <a href="technicalagent.html"><button type="submit">Confirm</button></a>
         </div>
 
         <script src="JAVA-SCRIPTS/exchange.js"></script>
 
     </div>
+
     <footer>
         <div class="footer">
             <div class="connect">
@@ -106,6 +107,7 @@
             </div>
         </div>
     </footer>
+    
 </body>
 
 </html>

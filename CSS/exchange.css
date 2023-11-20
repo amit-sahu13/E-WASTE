@@ -131,6 +131,9 @@ button :hover{
 #confirmation button:hover{
   background-color: rgb(195, 105, 105);
 }
+#confirmation a{
+  text-decoration: none;
+}
 
 
 .custom-select {
