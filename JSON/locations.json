@@ -25,10 +25,72 @@
     },
     {
         "id" : 4,
-        "company" : "E-Waste Samadhan",
-        "address" : "Plot No. 15, IT Park, Dhar Road",
-        "city" : "Pune",
-        "state" : "Madhya Pradesh - 452001" ,
-        "link" : "https://maps.app.goo.gl/78XQRJLSzqCHjWWX7"
+        "company" : "E-Waste Hub",
+        "address" : "191/42 Wilson Garden 10th Cross Bus Stop",
+        "city" : "Bangalore",
+        "state" : "Karnataka" ,
+        "link" : "https://maps.app.goo.gl/gEjDJ5hJSMxbp7EcA"
+    },
+    {
+        "id" : 5,
+        "company" : "Sri Manjunatha Swamy Traders",
+        "address" : "15/4, 6th cross Azad Nagar, Chamrajpet",
+        "city" : "Bangalore",
+        "state" : "Karnataka - 560018" ,
+        "link" : "https://maps.app.goo.gl/6Cp8E4x5nqgGxwku9"
+    },
+    {
+        "id" : 6,
+        "company" : "TRASH TO CASH INNOVATION",
+        "address" : "Survey no. 64, 7th cross, Bannerghatta",
+        "city" : "Bangalore",
+        "state" : "Karnataka - 560083" ,
+        "link" : "https://maps.app.goo.gl/pg8cDZsai8hR4xCt5"
+    },
+    {
+        "id" : 7,
+        "company" : "ZOLOPIK",
+        "address" : "22nd Main Road, Marenahalli, JP Nagar",
+        "city" : "Bangalore",
+        "state" : "Karnataka - 560078" ,
+        "link" : "https://maps.app.goo.gl/aFSA4ujod8W3DY2F6"
+    },
+    {
+        "id" : 8,
+        "company" : "Saahas Zero Waste",
+        "address" : "16th Main Road, MCHS Colony, BTM 2nd stage",
+        "city" : "Bangalore",
+        "state" : "Karnataka - 560102" ,
+        "link" : "https://maps.app.goo.gl/ksF3iayvjjmDya5J9"
+    },
+    {
+        "id" : 9,
+        "company" : "Escrappy Recyclers",
+        "address" : "Near Shusruthi Hospital, Shushruti Nagar",
+        "city" : "Bangalore",
+        "state" : "Karnataka - 560058" ,
+        "link" : "https://maps.app.goo.gl/EkXFqua133SBinqw7"
+    },
+    {
+        "id" : 10,
+        "company" : "",
+        "address" : "",
+        "city" : "",
+        "state" : "" ,
+        "link" : ""
+    },
+    {
+        "id" : 11,
+        "company" : "",
+        "address" : "",
+        "city" : "",
+        "state" : "" ,
+        "link" : ""
+,
+        "company" : "",
+        "address" : "",
+        "city" : "",
+        "state" : "" ,
+        "link" : ""
     }
 ]
