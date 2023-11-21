@@ -1,34 +1,106 @@
 [
-    {
-        "id" : 1,
-        "company" : "Moonstar Enterprises",
-        "address" : "Sector B, Sanwer Road Industrial Road Area",
-        "city" : "Indore",
-        "state" : "Madhya Pradesh - 452015" ,
-        "link" : "https://maps.app.goo.gl/N2mgG6JgAk82sZhCA"
-    },
-    {
-        "id" : 2,
-        "company" : "Advanced E-Waste Recycler",
-        "address" : "MG Road Near Kothari Market Square",
-        "city" : "Indore",
-        "state" : "Madhya Pradesh - 452007",
-        "link" : "https://maps.app.goo.gl/HFZTAYw1R3y6VxZJA"
-    },
-    {
-        "id" : 3,
-        "company" : "Unique Eco Recycle",
-        "address" : "RD Udyog Nagar, Nemawar Rd, Palda Area",
-        "city" : "Indore",
-        "state" : "Madhya Pradesh - 452020",
-        "link" : "https://maps.app.goo.gl/89cUz5YK34a91nqL7"
-    },
-    {
-        "id" : 4,
-        "company" : "E-Waste Samadhan",
-        "address" : "Plot No. 15, IT Park, Dhar Road",
-        "city" : "Pune",
-        "state" : "Madhya Pradesh - 452001" ,
-        "link" : "https://maps.app.goo.gl/78XQRJLSzqCHjWWX7"
-    }
+  {
+    "id": 1,
+    "company": "Moonstar Enterprises",
+    "address": "Sector B, Sanwer Road Industrial Road Area",
+    "city": "Indore",
+    "state": "Madhya Pradesh - 452015",
+    "link": "https://maps.app.goo.gl/N2mgG6JgAk82sZhCA"
+  },
+  {
+    "id": 2,
+    "company": "Advanced E-Waste Recycler",
+    "address": "MG Road Near Kothari Market Square",
+    "city": "Indore",
+    "state": "Madhya Pradesh - 452007",
+    "link": "https://maps.app.goo.gl/HFZTAYw1R3y6VxZJA"
+  },
+  {
+    "id": 3,
+    "company": "Unique Eco Recycle",
+    "address": "RD Udyog Nagar, Nemawar Rd, Palda Area",
+    "city": "Indore",
+    "state": "Madhya Pradesh - 452020",
+    "link": "https://maps.app.goo.gl/89cUz5YK34a91nqL7"
+  },
+  {
+    "id": 4,
+    "company": "E-Waste Samadhan",
+    "address": "Plot No. 15, IT Park, Dhar Road",
+    "city": "Pune",
+    "state": "Madhya Pradesh - 452001",
+    "link": "https://maps.app.goo.gl/78XQRJLSzqCHjWWX7"
+  },
+  {
+    "id": 12,
+    "company": "Zolopik",
+    "address": "1, H.No: 3-7/38, Khaswa Enclave,Narsingi",
+    "city": "Hyderabad,",
+    "state": " Telangana - 500075",
+    "link": "https://maps.app.goo.gl/wEs6vmFt6n2ARcx37"
+  },
+  {
+    "id": 13,
+    "company": "E-WASTE EXCHANGE",
+    "address": "IIITH Himalaya, Road, Gachibowli",
+    "city": "Hyderabad,",
+    "state": " Telangana - 500032",
+    "link": "https://maps.app.goo.gl/nxa5DR1xTWMqabQa8"
+  },
+  {
+    "id": 14,
+    "company": "Crapbin",
+    "address": "16-9-406/A/80, Ground Floor, Wahed Nagar",
+    "city": "Hyderabad,",
+    "state": " Telangana - 500036",
+    "link": "https://maps.app.goo.gl/T3npWr435twFQMrFA"
+  },
+  {
+    "id": 15,
+    "company": "Global scrap mart",
+    "address": "11-13-749/2, Dena Bank Colony, Kothapet",
+    "city": "Hyderabad,",
+    "state": " Telangana - 500035",
+    "link": "https://maps.app.goo.gl/H6FwgKu2a8Tszg4LA"
+  },
+  {
+    "id": 16,
+    "company": "E-Waste Recycling process",
+    "address": "GPRA CUMPUS, Indira Nagar, Gachibowli",
+    "city": "Hyderabad,",
+    "state": " Telangana - 500032",
+    "link": "https://maps.app.goo.gl/CmJS2U5W6MfczZTS6"
+  },
+  {
+    "id": 17,
+    "company": "E-Waste Recycling process",
+    "address": "Plot No:- 147, 3rd Floor, Patparganj",
+    "city": "Delhi,",
+    "state": " Delhi-  110092",
+    "link": "https://maps.app.goo.gl/MdBJjDn4TuH6Q2gD6"
+  },
+  {
+    "id": 18,
+    "company": "3R Recycler Pvt. Ltd.",
+    "address": "502,DDA Complex, Distt. Center, Laxmi Nagar",
+    "city": "Delhi,",
+    "state": " Delhi-  110092",
+    "link": "https://maps.app.goo.gl/dbYizxDTTgnb43ns5"
+  },
+  {
+    "id": 19,
+    "company": "Hindustan E-waste",
+    "address": "8, Central Rd, Jangpura, Bhogal",
+    "city": "Delhi,",
+    "state": " Delhi-  110014",
+    "link": "https://maps.app.goo.gl/HWwcXsAMr2S5Fiu66"
+  },
+  {
+    "id": 20,
+    "company": "The Online Kabadiwala",
+    "address": "Swapeco IIIT Delhi Incubation Center",
+    "city": "Delhi,",
+    "state": " Delhi-  110021",
+    "link": "https://maps.app.goo.gl/35qFVFCDBadAwMQQ7"
+  }
 ]
