@@ -73,24 +73,90 @@
     },
     {
         "id" : 10,
-        "company" : "",
-        "address" : "",
-        "city" : "",
-        "state" : "" ,
-        "link" : ""
+        "company" : "National Traders",
+        "address" : "C-48, Veer Santaji Ghorpade Rd, Kasba Peth",
+        "city" : "Pune",
+        "state" : "Maharashtra - 411011" ,
+        "link" : "https://maps.app.goo.gl/2zW3yLi8tuiC2Yu87"
     },
     {
         "id" : 11,
-        "company" : "",
-        "address" : "",
-        "city" : "",
-        "state" : "" ,
-        "link" : ""
-,
-        "company" : "",
-        "address" : "",
-        "city" : "",
-        "state" : "" ,
-        "link" : ""
+        "company" : "E-Waste Global",
+        "address" : "33/34, Sham Sundar Society Rd., Navi Peth",
+        "city" : "Pune",
+        "state" : "Maharashtra - 411030" ,
+        "link" : "https://maps.app.goo.gl/UDmBzX5VeBw59oWo9"
+    },
+    {
+        "id" : 21,
+        "company" : "Crown-Tech Ewaste Solutions",
+        "address" : "326, Dewan Sahib Garden Rd, Royapettah",
+        "city" : "Chennai",
+        "state" : "Tamil Nadu - 600014" ,
+        "link" : "https://maps.app.goo.gl/d1zkCDzCiesvfmnQ9"
+    },
+    {
+        "id" : 22,
+        "company" : "Earth Recycler Pvt. Ltd.",
+        "address" : "Ground Floor, Haji M.A.R Avenue, Periyament",
+        "city" : "Chennai",
+        "state" : "Tamil Nadu - 600003" ,
+        "link" : "https://maps.app.goo.gl/3SqCofPFgk1tctmo7"
+    },
+    {
+        "id" : 23,
+        "company" : "Earth Sense Recycle Pvt. Ltd.",
+        "address" : "7/4, 3rd Trust Cross, Mandavelipakkam",
+        "city" : "Chennai",
+        "state" : "Tamil Nadu - 600028" ,
+        "link" : "https://maps.app.goo.gl/dZoSFHuAe6i2MSDA8"
+    },
+    {
+        "id" : 24,
+        "company" : "Sree Ewaste Reycling",
+        "address" : "Rajiv Gandhi Salai, Srinivasa Nagar",
+        "city" : "Chennai",
+        "state" : "Tamil Nadu - 600096" ,
+        "link" : "https://maps.app.goo.gl/epomKPFJjMH9D6Kg7"
+    },
+    {
+        "id" : 25,
+        "company" : "Virogreen India Pvt. Ltd.",
+        "address" : "LCR Centre, Thiruvallur Nagar",
+        "city" : "Chennai",
+        "state" : "Tamil Nadu - 600099" ,
+        "link" : "https://maps.app.goo.gl/Dw8j2Ue7K2YZEoTU6"
+    },
+    {
+        "id" : 26,
+        "company" : "The Recycling Company",
+        "address" : "D-402, near Yashraj Studios, Andheri",
+        "city" : "Mumbai",
+        "state" : "Maharashtra - 400053" ,
+        "link" : "https://maps.app.goo.gl/wScLqfMr51ppcCVu8"
+    },
+    {
+        "id" : 27,
+        "company" : "EcoTech Recycling",
+        "address" : "301, 3rd floor, Commercial Tower, Bandra East",
+        "city" : "Mumbai",
+        "state" : "Maharashtra - 400051" ,
+        "link" : "https://maps.app.goo.gl/4yoiqVML98Ek61zEA"
+    },
+    {
+        "id" : 28,
+        "company" : "E-Waste Mart",
+        "address" : "Pahelwan Compound, 90 ft Rd, Saki Naka",
+        "city" : "Mumbai",
+        "state" : "Maharashtra - 400072" ,
+        "link" : "https://maps.app.goo.gl/2YPvvzLuUvkLj6K47"
+    },
+    {
+        "id" : 29,
+        "company" : "Justdispose Recycling Pvt. Ltd.",
+        "address" : "Arvind Industrial Estate, Vasai-Virar",
+        "city" : "Mumbai",
+        "state" : "Maharashtra - 401210" ,
+        "link" : "https://maps.app.goo.gl/po7L9LFS3aAyCQaC9"
     }
 ]
