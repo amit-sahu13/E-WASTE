@@ -9,6 +9,10 @@
       "output": "Electronic waste, or e-waste, refers to discarded electronic devices. Proper disposal is essential for the environment."
     },
     {
+      "input": "what is ewaste",
+      "output": "Electronic waste, or e-waste, refers to discarded electronic devices. Proper disposal is essential for the environment."
+    },
+    {
       "input": "collection center",
       "output": "You can find e-waste collection centers by visiting our website and using the locator tool."
     },
@@ -46,6 +50,10 @@
     },
     {
       "input": "thanks",
+      "output": "You're welcome! If you have more questions, feel free to ask."
+    },
+    {
+      "input": "thank you",
       "output": "You're welcome! If you have more questions, feel free to ask."
     }
   ]

@@ -1,7 +1,5 @@
 let responses;
 
-
-// Load responses from JSON file
 fetch("JSON/responses.json")
   .then((response) => response.json())
   .then((data) => {
@@ -12,12 +10,10 @@ fetch("JSON/responses.json")
 function sendMessage() {
   const userInput = document.getElementById("user-input").value;
   displayUserMessage(userInput);
-
-  // Bot responds based on user input
   const botResponse = getResponse(userInput);
   displayBotMessage(botResponse);
 
-  document.getElementById("user-input").value = ""; //blank kr dega tf
+  document.getElementById("user-input").value = ""; 
 }
 
 function getResponse(userInput) {
