@@ -1,17 +1,18 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js";
-import { getDatabase, set, ref, update } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-database.js";
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-analytics.js";
+import { getDatabase, set, ref, update } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
+
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBjcU1gBhG93nuFr2wIy1z_v93iH8m3ZEg",
-  authDomain: "e-waste-auth-1f677.firebaseapp.com",
-  databaseURL: "https://e-waste-auth-1f677-default-rtdb.firebaseio.com",
-  projectId: "e-waste-auth-1f677",
-  storageBucket: "e-waste-auth-1f677.appspot.com",
-  messagingSenderId: "257938594701",
-  appId: "1:257938594701:web:8386620c58025a18eabbc4",
-  measurementId: "G-875EENJ48J"
+  apiKey: "AIzaSyDDSHGYYY4XVJOt_8vMNEey16tlPKXKte0",
+  authDomain: "major-8932c.firebaseapp.com",
+  databaseURL: "https://major-8932c-default-rtdb.firebaseio.com",
+  projectId: "major-8932c",
+  storageBucket: "major-8932c.appspot.com",
+  messagingSenderId: "792452927403",
+  appId: "1:792452927403:web:0e66b450280af9eb718cee",
+  measurementId: "G-7J920HLBRM"
 };
 
 const app = initializeApp(firebaseConfig);
@@ -27,23 +28,20 @@ signUp.addEventListener('click', (e) => {
 
   createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
-      // Signed up 
       const user = userCredential.user;
       set(ref(database, 'users/' + user.uid), {
         username: username,
         email: email
       })
       alert('Account registered successfuly');
-      
-   
-      // ...
+
+
     })
     .catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
 
       alert(errorMessage);
-      // ..
     });
 
 
@@ -66,7 +64,9 @@ signUp.addEventListener('click', (e) => {
         })
 
         alert('Logged in successfully');
-        // ...
+        
+        document.getElementById("logout").style.display = "block";
+        document.getElementById("openForms").style.display = "none";
       })
       .catch((error) => {
         const errorCode = error.code;
@@ -78,16 +78,3 @@ signUp.addEventListener('click', (e) => {
 
 });
 
-const user = auth.currentUser;
-onAuthStateChanged(auth, (user) => {
-  if (user!==null) {
-    // User is signed in, see docs for a list of available properties
-    // https://firebase.google.com/docs/reference/js/auth.user
-    // window.location.href='index.html';
-    const uid = user.uid;
-    // ...
-  } else {
-    // User is signed out
-    // ...
-  }
-});

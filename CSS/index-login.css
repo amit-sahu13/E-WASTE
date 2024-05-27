@@ -1,6 +1,7 @@
+
+header,
 footer,
 main {
-  filter: blur(6px);
   overflow-x: hidden;
 }
 
