@@ -113,22 +113,11 @@
 
             <div class="manmohan">
                 <div class="name">
-                    <p class="name-person">Manmohan Singh</p>
-                    <p class="role">BACK-END DEV.</p>
-                    <p class="team-name">BYTECLEAN</p>
-                </div>
-                <img src="IMAGES/Manmohan 1.png" alt="Error">
-            </div>
-            <div class="names2-hr"></div>
-
-
-            <div class="amit">
-                <img src="IMAGES/abhi 1.png" alt="Error">
-                <div class="name">
                     <p class="name-person">Abhijeet Sushir</p>
-                    <p class="role">FRONT-END DEVELOPER</p>
+                    <p class="role">UI/UX Designer</p>
                     <p class="team-name">BYTECLEAN</p>
                 </div>
+                <img src="IMAGES/abhi 1.png" alt="Error">
             </div>
         </div>
 

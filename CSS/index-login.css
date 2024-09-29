@@ -1,7 +1,10 @@
 
+<<<<<<< HEAD
+=======
+header,
+>>>>>>> 6e908be017318db82b93b888c0d61364e0e6516a
 footer,
 main {
-  filter: blur(6px);
   overflow-x: hidden;
 }
 
