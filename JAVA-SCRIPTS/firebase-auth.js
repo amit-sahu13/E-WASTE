@@ -34,13 +34,6 @@ signUp.addEventListener('click', (e) => {
         email: email
       })
       alert('Account registered successfuly');
-<<<<<<< HEAD
-      
-   
-=======
-
-
->>>>>>> 6e908be017318db82b93b888c0d61364e0e6516a
     })
     .catch((error) => {
       const errorCode = error.code;
