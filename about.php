@@ -104,7 +104,7 @@
                 <img src="IMAGES/Profile 1.png" alt="Error">
                 <div class="name">
                     <p class="name-person">Amit Sahu</p>
-                    <p class="role">TEAM LEAD [BACK-END DEV.]</p>
+                    <p class="role">TEAM LEAD [FULL STACK DEV.]</p>
                     <p class="team-name">BYTECLEAN</p>
                 </div>
             </div>

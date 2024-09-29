@@ -27,7 +27,6 @@ signUp.addEventListener('click', (e) => {
 
   createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
-      // Signed up 
       const user = userCredential.user;
       set(ref(database, 'users/' + user.uid), {
         username: username,
@@ -36,14 +35,12 @@ signUp.addEventListener('click', (e) => {
       alert('Account registered successfuly');
       
    
-      // ...
     })
     .catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
 
       alert(errorMessage);
-      // ..
     });
 
 
